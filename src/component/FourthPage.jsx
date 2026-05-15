@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom"
 
 gsap.registerPlugin(ScrollTrigger);
 
-const headingText = "Years passed.\nAnd today is herbirthday...";
+const headingText = "Years passed.\nAnd today is her birthday...";
 
 const FourthPage = () => {
 
