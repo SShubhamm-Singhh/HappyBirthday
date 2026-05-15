@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom"
 
 gsap.registerPlugin(ScrollTrigger);
 
-const headingText = "Years passed.\nNow Shakti is 27 years old";
+const headingText = "Years passed.\nAnd today is herbirthday...";
 
 const FourthPage = () => {
 
@@ -326,10 +326,6 @@ const FourthPage = () => {
               <br />
 
               She annoyed him daily.
-
-              <br />
-
-              She stole his hoodie.
 
               <br />
 
