@@ -5,13 +5,18 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import twentySevenImage from "../assets/27.png";
 import angerImage from "../assets/anger.png";
 import loveImage from "../assets/love.png";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"
 
 gsap.registerPlugin(ScrollTrigger);
 
 const headingText = "Years passed.\nNow Shakti is 27 years old";
 
 const FourthPage = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const navigate = useNavigate();
   const [displayedText, setDisplayedText] = useState("");
 
